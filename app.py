@@ -13,11 +13,11 @@ st.markdown("""
     .main-title { font-size: 45px; font-weight: bold; color: #2E4053; }
     .subtitle { font-size: 20px; color: #5D6D7E; margin-bottom: 20px; }
     </style>
-    """, unsafe_allow_status=True)
+    """, unsafe_allow_html=True)
 
 # 2. Encabezado institucional
-st.markdown('<p class="main-title">UNIVERSIDAD HORIZONTE</p>', unsafe_allow_status=True)
-st.markdown('<p class="subtitle">Estrategia de Transformación Digital - Horizonte 2029</p>', unsafe_allow_status=True)
+st.markdown('<p class="main-title">UNIVERSIDAD HORIZONTE</p>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle">Estrategia de Transformación Digital - Horizonte 2029</p>', unsafe_allow_html=True)
 
 st.divider()
 
